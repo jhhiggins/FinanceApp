@@ -1,0 +1,18 @@
+import React from 'react';
+import '../styles/{{pascalCase name}}.nodule.css';
+
+interface {{pascalCase name}}Props {
+  // Define your props here
+  title: string; // Example prop
+}
+
+const {{pascalCase name}}: React.FC<{{pascalCase name}}Props> = ({ title }) => {
+  return (
+    <div className="{{pascalCase name}}">
+      <h1>{title}</h1>
+      {/* Add more JSX here */}
+    </div>
+  );
+};
+
+export default {{pascalCase name}};
