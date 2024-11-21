@@ -18,7 +18,7 @@ module.exports = (plop) => {
       },
       {
           type: 'add',
-          path: 'src/styles/{{pascalCase name}}.scss',
+          path: 'src/styles/{{pascalCase name}}.css',
           template: '',
       },
     ],
